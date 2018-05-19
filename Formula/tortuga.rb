@@ -1,9 +1,9 @@
 class Tortuga < Formula
     desc "CLI tool for fetching/pushing/rebasing multiple git repositories at once"
     homepage "https://github.com/benweidig/tortuga"
-    url "https://github.com/benweidig/tortuga/releases/download/v1.2.6/tortuga-1.2.6_darwin_amd64.tar.gz"
-    sha256 "b77709aed20fa3d699d98402548d2584b30c114f08f136a6aaa36d618aa63465"
-    version "1.2.6"
+    url "https://github.com/benweidig/tortuga/releases/download/v1.3.0/tortuga-1.3.0_darwin_amd64.tar.gz"
+    sha256 "4b27b303215d671f885e62aee1560571b1ae92821a2b3bdaa32f58e234a27355"
+    version "1.3.0"
 
     depends_on "git"
     def install
