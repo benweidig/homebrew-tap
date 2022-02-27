@@ -2,17 +2,17 @@ class Tortuga < Formula
     desc "CLI tool for fetching/pushing/rebasing multiple git repositories at once"
     homepage "https://github.com/benweidig/tortuga"
     license "MIT"
-    version "2.2.4"
+    version "2.2.5"
 
     depends_on "git"
 
     if OS.mac?
         if Hardware::CPU.intel?
-            url "https://github.com/benweidig/tortuga/releases/download/v2.2.4/tortuga-2.2.4_darwin_amd64.tar.gz"
-            sha256 "2a5e4503275f0c6f0991faf7ff6cb140564d49e5519dec524b9ce09eae4bcfb6"
+            url "https://github.com/benweidig/tortuga/releases/download/v2.2.5/tortuga-2.2.5_darwin_amd64.tar.gz"
+            sha256 "d2bbb55eab0161ca2fff66888857eefceb453f332dfb7dbd6a8ac2a93b8f24b7"
         else
-            url "https://github.com/benweidig/tortuga/releases/download/v2.2.4/tortuga-2.2.4_darwin_arm64.tar.gz"
-            sha256 "db35a3d2961e284cd709cb0bfd2d6138a042c5c5a6176b1d6a78d999fe2a2182"
+            url "https://github.com/benweidig/tortuga/releases/download/v2.2.5/tortuga-2.2.5_darwin_arm64.tar.gz"
+            sha256 "c76f642b845f6933a1155b171acb5e0e1b674fb01f9ad266c2ad576a9d818997"
         end
     end
 
