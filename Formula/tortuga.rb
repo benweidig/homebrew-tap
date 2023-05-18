@@ -8,11 +8,11 @@ class Tortuga < Formula
 
     if OS.mac?
         if Hardware::CPU.intel?
-            url "https://github.com/benweidig/tortuga/releases/download/v2.3.0/tortuga-2.3.0_darwin_amd64.tar.gz"
-            sha256 "35be09979b0311d6c7a9e6ba286454c284bc9c8ab97559aef0a30cecc4a4152e"
+            url "https://github.com/benweidig/tortuga/releases/download/v2.3.1/tortuga-2.3.1_darwin_amd64.tar.gz"
+            sha256 "60cf26f7c596598eb76c2676654233c0f6e2fb8acab490b87f21fd8fcb9d10f5"
         else
-            url "https://github.com/benweidig/tortuga/releases/download/v2.3.0/tortuga-2.3.0_darwin_arm64.tar.gz"
-            sha256 "1714ff45ca7663a4fa1a899c8b627a368292afeb089349211dd8e6f43239676d"
+            url "https://github.com/benweidig/tortuga/releases/download/v2.3.1/tortuga-2.3.1_darwin_arm64.tar.gz"
+            sha256 "0da3c365bac5d11e3a8c9ab28d73814224cae49a5f0273f4083cf5619f1ac278"
         end
     end
 
