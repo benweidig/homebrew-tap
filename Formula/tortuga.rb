@@ -2,7 +2,7 @@ class Tortuga < Formula
     desc "CLI tool for fetching/pushing/rebasing multiple git repositories at once"
     homepage "https://github.com/benweidig/tortuga"
     license "MIT"
-    version "2.3.0"
+    version "2.3.2"
 
     depends_on "git"
 
